@@ -1,0 +1,341 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:300vh;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+
+#formsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 520px;
+}
+
+
+/* registracija */
+
+#registerForm {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #eee;
+    border: solid 1px #aaa;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+#registerForm label {
+    display: block;
+}
+
+#registerForm input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#registerForm input[type="submit"] {
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+#registerForm input[type="submit"]:hover {
+    background-color: darkblue;
+}
+
+#registerForm input[type="submit"]:active {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+
+/* prijava */
+
+#loginForm {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #eee;
+    border: solid 1px #aaa;
+    box-sizing: border-box;
+}
+
+#loginForm label {
+    display: block;
+}
+
+#loginForm input {
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+#loginForm input[type="submit"] {
+    background-color: rgb(5, 59, 32);
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+#loginForm input[type="submit"]:hover {
+     background-color: darkgreen;
+}
+
+#loginForm input[type="submit"]:active {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+
+/*  greska */
+.error {
+    color: orange;
+}
+
+
+/* events */
+
+#searchEvents {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #eee;
+    border: solid 1px #aaa;
+}
+
+#searchEvents input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+/* naslovi */
+
+h2 {
+    font-family: 'Arial', sans-serif;      
+    font-size: 24px;                       
+    color: #333;                         
+    text-align: center;                   
+}
+
+
+
+
+/* kreiranje korisnika */
+
+#createUserForm {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #eee;
+    border: solid 1px #aaa;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+#createUserForm label {
+    display: block;
+}
+
+#createUserForm input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#createUserForm input[type="submit"] {
+    background-color: darkred;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+#createUserForm input[type="submit"]:hover {
+    background-color: red;
+}
+
+#createUserForm input[type="submit"]:active {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+
+/* tabela */
+
+#formsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 520px;
+  }
+  
+  #rolesTable {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  #rolesTable th,
+  #rolesTable td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  #rolesTable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  #rolesTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  #rolesTable tr:hover {
+    background-color: #e5e5e5;
+    cursor: pointer;
+  }
+  
+  /* tabela v2 */
+
+  #usersTable {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  #usersTable th,
+  #usersTable td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  #usersTable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  #usersTable tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  #usersTable tbody tr:hover {
+    background-color: #e5e5e5;
+    cursor: pointer;
+  }
+  
+/*lokacija */
+
+  #locationForm {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #eee;
+    border: solid 1px #aaa;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+#locationForm label {
+    display: block;
+}
+
+#locationForm input,
+#locationForm textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#locationForm input[type="submit"] {
+    background-color: rgb(1, 36, 105);
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+#locationForm input[type="submit"]:hover {
+    background-color: rgb(106, 115, 241);
+}
+
+#locationForm input[type="submit"]:active {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+
+/* tabela v3 */
+
+#locationsTable {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  #locationsTable th,
+  #locationsTable td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  #locationsTable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  #locationsTable tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  #locationsTable tbody tr:hover {
+    background-color: #e5e5e5;
+    cursor: pointer;
+  }
+  
+
+  /* dogadjaji */
+
+  #createEventForm {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #eee;
+    border: solid 1px #aaa;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  #createEventForm label {
+    display: block;
+  }
+  
+  #createEventForm input,
+  #createEventForm textarea,
+  #createEventForm select {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  #createEventForm input[type="submit"] {
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  #createEventForm input[type="submit"]:hover {
+    background-color: darkblue;
+  }
+  
+  #createEventForm input[type="submit"]:active {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
